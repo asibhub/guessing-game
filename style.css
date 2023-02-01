@@ -138,7 +138,7 @@ body {
 }
 
 /* for small divice */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 492px) {
   .wrapper {
     width: 95%;
     padding: 1rem;
@@ -155,9 +155,6 @@ body {
   }
   .head p {
     font-size: 1rem;
-  }
-  .main-content #hide {
-    margin-top: 10px;
   }
   .last-part {
     justify-content: space-between;
