@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Guessing Game app  -->
+    <div class="wrapper">
+      <!-- header content  -->
+      <header class="head">
+        <div class="again-btn">
+          <button id="reset">Again</button>
+        </div>
+        <div class="head-content">
+          <p>Geuss Between 1 to 10</p>
+        </div>
+      </header>
+
+      <!-- main content  -->
+      <main class="main-content">
+        <div class="guess-number">
+          <h1 class="winmsg">Guess The Number 👍</h1>
+        </div>
+        <div id="win"></div>
+        <div class="hidden">
+          <h2 id="random">0</h2>
+        </div>
+        <div id="hide"></div>
+        <div class="number">
+          <h4 class="massage">Guess The Number Between 1 to 10 😃</h4>
+        </div>
+      </main>
+
+      <!-- Last content -->
+      <section class="last-part">
+        <div class="num">
+          <div class="take-number">
+            <input
+              type="text"
+              placeholder="Enter Number 1 to 10"
+              id="input-number"
+              required
+            />
+          </div>
+          <div class="check">
+            <input type="submit" id="check" value="Check?" />
+          </div>
+        </div>
+        <div class="count">
+          <p>Attampt: <span id="count">0</span></p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Scripts  -->
+    <script src="app.js"></script>
+  </body>
+</html>
