@@ -157,7 +157,7 @@ body {
     font-size: 1rem;
   }
   .main-content #hide {
-    margin-top: 0px;
+    margin-top: 10px;
   }
   .last-part {
     justify-content: space-between;
