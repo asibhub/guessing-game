@@ -143,6 +143,9 @@ body {
     width: 95%;
     padding: 1rem;
   }
+  .main-content h1 {
+    font-size: 1rem;
+  }
   .main-content .hidden {
     width: 50%;
   }
@@ -152,6 +155,9 @@ body {
   }
   .head p {
     font-size: 1rem;
+  }
+  .main-content #hide {
+    margin-top: 0px;
   }
   .last-part {
     justify-content: space-between;
